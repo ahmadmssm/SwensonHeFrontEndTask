@@ -70,10 +70,8 @@ dependencies {
     // Rx
     implementation(Gradle.dependencies.rxJava)
     implementation(Gradle.dependencies.rxAndroid)
-    implementation(Gradle.dependencies.rxBinding)
     // Koin DI
     implementation(Gradle.dependencies.koin)
-    implementation(Gradle.dependencies.koinScope)
     implementation(Gradle.dependencies.koinViewModel)
     implementation(Gradle.dependencies.koinFragment)
     //

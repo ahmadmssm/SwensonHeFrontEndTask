@@ -1,5 +1,6 @@
 package com.ams.currencyconverter.ui.dialogs
 
+import android.app.Dialog
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.DialogFragment
@@ -9,6 +10,12 @@ import kotlinx.android.synthetic.main.fragment_network_loader_dialog.*
 
 class NetworkLoaderDialogFragment: DialogFragment(R.layout.fragment_network_loader_dialog) {
 
+    override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
+        return super.onCreateDialog(savedInstanceState).apply {
+            window?.setBackgroundDrawableResource(android.R.color.transparent)
+        }
+    }
+    
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         loading_indicator_image_view.setBackgroundColor(0)

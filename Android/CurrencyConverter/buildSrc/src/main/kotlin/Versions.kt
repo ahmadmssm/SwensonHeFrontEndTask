@@ -11,7 +11,6 @@ object Versions {
     const val kotlinVersion          = "1.4.21"
     const val rxJava                 = "3.0.0"
     const val rxAndroid              = "3.0.3"
-    const val rxBinding              = "4.0.0"
     const val androidDevKit          = "1.1.0.3"
     const val retrofitGsonAdapter    = "2.9.0"
     const val coilImageLoader        = "1.0.0-rc3"
@@ -21,5 +20,4 @@ object Versions {
     const val material               = "1.3.0-alpha02"
     const val koin                   = "2.1.5"
     const val testRunner             = "1.2.0"
-    const val recyclerView           = "1.2.0-alpha02"
 }
